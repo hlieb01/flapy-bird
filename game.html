@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatfible" content="ie=edge">
+    <title>Flappy Bird!</title>
+    <style>
+        .pacifico-regular {
+            font-family: "Pacifico", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menushka"
+        style="position: absolute; left: 0; top: 0; width: 500px; height: 500px; z-index: 100; background-color: rgba(0, 255, 255, 0.534); display: none;">
+
+        <button onclick="changedictuffity('easy')">easy</button>
+        <button onclick="changedictuffity('mendium')">mendium</button>
+        <button onclick="changedictuffity('hard')">hard</button>
+        <button onclick="changedictuffity('extreme')">extreme</button>
+        <button onclick="changedictuffity('prime')">PRIME</button>
+        <button onclick="reload()">restart</button>
+        <button onclick="audioline()">audio</button>
+    </div>
+    <canvas id="canvas" width="1904" height="600"></canvas>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
